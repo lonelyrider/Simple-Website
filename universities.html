@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Universities</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src ="js/script.js"></script>
+
+</head>
+<body>
+
+<div class="container"> <!-- CLASS USED IN CSS -->
+  <header class="header">
+
+  <div class="center">
+    <a class = "link-title" href="index.html">Unipay</a>
+  </div>
+
+  </header>
+
+
+
+<nav class="menu"> <!-- CLASS USED IN CSS -->
+
+  <!-- SUBCLASS USED IN CSS --><a href="index.html">Home</a> &nbsp; &nbsp; &nbsp;
+  <!-- SUBCLASS USED IN CSS --><a href="about.html">About</a> &nbsp; &nbsp; &nbsp;
+  <!-- SUBCLASS USED IN CSS --><a href="universities.html">University</a> &nbsp; &nbsp; &nbsp;
+  <!-- SUBCLASS USED IN CSS --><a href="contact.html">Contact</a>
+
+</nav>
+
+<aside>
+
+
+  <h1> Plata</h1>
+
+
+</aside>
+
+<article class="main">
+
+  <p>
+ 
+    <h1> Plateste-ti taxele universitare aici !  </h1>
+
+  </p>
+
+<p>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+  <!-- Identify your business so that you can collect the payments. -->
+  <input type="hidden" name="business" value="borzasebastiancornel@gmail.com"> <!-- CLIENTUL PAYPAL CATRE CARE VIRAM BANII IN CAZUL NOSTRU FACULTATEA -->
+
+  <!-- Specificam butonul Buy Now -->
+  <input type="hidden" name="cmd" value="_xclick">
+
+  <!-- Specificam detalii despre produsele cumparate de clientii nostri -->
+  <input type="hidden" name="item_name" value="Design">
+  <input type="hidden" name="currency_code" value="EUR"> 
+  <!-- schimbam moneda in lei **eu am cont paypal in euro -->
+
+  <b>UNIVERSITATEA "AUREL VLAICU" ARAD</b>
+  
+<p>
+  <!-- Camp de selectare drop-down cu preturi -->
+  <input type="hidden" name="on1" value="Design">FACULTATEA <br/>
+  <select name="os1">
+    <option value="Select a type">-- Numele facultatii --</option>
+    <option value="exacte">St.Exacte - 545.00 RON</option>
+    <option value="economice">St.Economice - 545.00 RON</option>
+    <option value="inginerie">Inginerie -  645.00 RON</option>
+  </select> <br/>
+</p>
+
+  <!-- Specificam preturile pentru fiecare produs catre Paypal-->
+  <input type="hidden" name="option_index" value="1">
+  <input type="hidden" name="option_select0" value="exacte">
+  <input type="hidden" name="option_amount0" value="545.00">
+  <input type="hidden" name="option_select1" value="economice">
+  <input type="hidden" name="option_amount1" value="545.00">
+  <input type="hidden" name="option_select2" value="inginerie">
+  <input type="hidden" name="option_amount2" value="645.00">
+<p>
+  <!-- Display the payment button. -->
+  <input type="image" name="submit" border="0"
+    src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif"
+    alt="Buy Now">
+  <img alt="" border="0" width="1" height="1"
+    src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+</p>
+</form>
+</p>
+  
+</article>
+
+<footer>
+
+  &copy; Universitatea "Aurel Vlaicu" Arad &nbsp; <span class="separator">|</span> Design by <a href="http://github.com/lonelyrider">Borza Sebastian</a>
+
+
+
+
+
+</footer>
+
+
+</div>
+
+
+</body>
+</html>

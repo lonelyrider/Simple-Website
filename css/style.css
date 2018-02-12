@@ -1,0 +1,147 @@
+body {
+
+	background-color: #F4F4F4;
+}
+
+
+.link-title {
+
+	text-decoration: none;
+	font-size: 24px;
+	color: white;
+    text-shadow: 2px 2px 4px #000000;
+	font: bold 50px/50px Georgia, serif;
+
+}
+
+.container {  /*------>DIVUL PRINCIPAL*/
+	width: 780px;
+	margin: 0 auto;  /*---->CENTRAT*/
+}
+
+.header {
+
+	padding: 45px 0 20px 40px;
+	border: 2px solid black;
+	text-align: center;
+}
+
+.menu {
+
+	background-color: #3b7687;
+	padding: 6px 0 6px 40px;
+}
+
+.menu a {
+
+	color: #ffc700;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: Gill Sans Extrabold, sans-serif;
+}
+
+aside { /*SIDEBAR*/
+
+	float: left;
+	width: 120px;
+	padding: 30px 0 0 40px;
+
+}
+
+h1 {
+
+	margin: 0px;
+	color: #ffc700;
+	font-size: 24px;
+	font-family: Gill Sans Extrabold, sans-serif;
+	font-weight: normal;
+
+}
+
+h2 {
+
+	color: #00ffdc;
+	font-size: 15px;
+	margin: 20px 0 5px 0;
+}
+
+.main { /*lorem ipsum text*/
+
+	margin: 0 0 0 180px;
+	padding: 35px 40px 30px 0px;
+	color: #444444;
+	font-family: "Georgia";
+	font-size: 13px;
+	line-height: 18px;
+	text-align: justify;
+}
+
+.main a:hover {
+
+	color: #444444;
+}
+
+
+#home-image img	{ /*THIS ID IS USED ONLY ONE TIME AND WE TARGET THE IMAGE INSIDE*/ 
+
+	width: 100%;
+}
+
+footer {
+
+	padding: 6px 40px 6px 40px;
+	background: #d6d6d6;
+	font-family: "Lucida Sans Unicode";
+	color: #444444;
+	font-size: 11px;
+	text-decoration: right;
+}
+
+footer a {
+
+	text-decoration: none;
+	color: #262626; 
+
+}
+
+.separator {
+
+	color: #FFFFFF;
+	font-size: 11px;
+
+}
+
+.center {
+
+	background-color: #ffc700;
+}
+
+/*------ABOUT PAGE----------pentru a face pagina diferita de restul paginilor + elemente tinta*/ 
+
+#about-page #home-image img {/*THIS ID IS USED ONLY ONE TIME AND WE TARGET THE IMAGE INSIDE*/ 
+
+	width: 70%;
+	float: left;
+	margin-bottom: 5px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+#about-page .profile-info {
+
+	float: right;
+	width: 20%;
+	margin: 0px;
+	margin-right: 5px;
+}
+
+#about-page .description {
+
+	clear: both;
+}
+
+#home-image #first-image {
+
+	width: 70%;
+}
+
